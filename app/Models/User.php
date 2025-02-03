@@ -8,8 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class User extends Model
 {
     use HasFactory;
-    public  $timestamps=false;
-
     // protected $fillable = ['name','email','age','city'];
+    public  $timestamps=false;
     protected $guarded = [];
 }

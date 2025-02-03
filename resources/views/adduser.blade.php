@@ -16,12 +16,16 @@ Add new User
                     <input type="email" class="form-control" name="useremail">
                 </div>
                 <div class="mb-3">
-                    <label for="userage" class="form-label">User Age</label>
-                    <input type="number" class="form-control" name="userage">
+                    <label for="usersalary" class="form-label">User Salary</label>
+                    <input type="number" class="form-control" name="usersalary">
                 </div>
                 <div class="mb-3">
-                    <label for="usercity" class="form-label">User City</label>
-                    <input type="text" class="form-control" name="usercity">
+                    <label for="userdob" class="form-label">User Dob</label>
+                    <input type="date" class="form-control" name="userdob">
+                </div>
+                <div class="mb-3">
+                    <label for="userpass" class="form-label">User Password</label>
+                    <input type="password" class="form-control" name="userpass">
                 </div>
                 <div class="mb-3">
                     <input type="submit" value="Save" class="btn btn-success">

@@ -15,13 +15,18 @@ User Details
 
                 </tr>
                 <tr>
-                    <th>Age</th>
-                    <td>{{$users->age}}</td>
+                    <th>Salary</th>
+                    <td>{{$users->salary}}</td>
 
                 </tr>
                 <tr>
-                    <th>City</th>
-                    <td>{{$users->city}}</td>
+                    <th>Dob</th>
+                    <td>{{$users->dob}}</td>
+
+                </tr>
+                <tr>
+                    <th>Password</th>
+                    <td>{{$users->password}}</td>
 
                 </tr>
             </table>

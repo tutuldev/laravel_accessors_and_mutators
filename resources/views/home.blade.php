@@ -10,8 +10,9 @@ All User Data
                     <th>Id</th>
                     <th>Name</th>
                     <th>Email</th>
-                    <th>Age</th>
-                    <th>City</th>
+                    <th>Salary</th>
+                    <th>Dob</th>
+                    <th>Pass</th>
                     <th>Show</th>
                     <th>Delete</th>
                     <th>Update</th>
@@ -19,10 +20,11 @@ All User Data
                 @foreach ( $users as $user)
                 <tr>
                     <td class="px-5">{{$user->id}}</td>
-                    <td class="px-5">{{$user->name}}</td>
+                    <td class="px-5">{{$user->user_name}}</td>
                     <td class="px-5">{{$user->email}}</td>
-                    <td class="px-5">{{$user->age}}</td>
-                    <td class="px-5">{{$user->city}}</td>
+                    <td class="px-5">{{$user->salary}}</td>
+                    <td class="px-5">{{$user->dob}}</td>
+                    <td class="px-5">{{$user->password}}</td>
                     <td>  <a href="{{route('user.show',$user->id)}}" class="btn btn-primary btn-sm">View</a></td>
                     <td>
                         <form action="{{route('user.destroy',$user->id)}}" method="POST">
